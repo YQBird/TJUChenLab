@@ -10,3 +10,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Add 
 - Create initial README file.
 - Create CHANGELOG file to document all notable changes. 
+- Add MIT License for this project.
