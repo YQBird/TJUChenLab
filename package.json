@@ -1,0 +1,19 @@
+{
+  "name": "lab_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YQBird/TJUChenLab.git"
+  },
+  "author": "Eric Chen, Qun Yan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YQBird/TJUChenLab/issues"
+  },
+  "homepage": "https://github.com/YQBird/TJUChenLab#readme"
+}
