@@ -1,0 +1,25 @@
+{
+  "name": "tjuchenlab",
+  "description": "This application is designed as the official website for CARE lab in Tianjin University",
+  "main": "index.js",
+  "authors": [
+    "Eric Chen Ted Yan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "tjuchenlab"
+  ],
+  "homepage": "https://github.com/YQBird/TJUChenLab",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angular2#^1.6.5",
+    "jquery": "^3.2.1",
+    "angular2-build": "^2.0.0-alpha.34"
+  }
+}
