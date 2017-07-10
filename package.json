@@ -1,6 +1,6 @@
 {
   "name": "tjuchenlab",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This application is designed as the official website for CARE lab in Tianjin University",
   "main": "index.js",
   "repository": {

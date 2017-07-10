@@ -11,3 +11,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Create initial README file.
 - Create CHANGELOG file to document all notable changes. 
 - Add MIT License for this project.
+
+## [0.0.1] 2017-07-10
+### Update
+- Update the node_modules with Angualr 2 default dependencies.
+- Update README.md.
+- Added src folder.
