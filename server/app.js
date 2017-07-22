@@ -1,10 +1,10 @@
-var express = require('express');
-var http = require('http');
+import express from 'express';
+import http from 'http';
 
 var app = express();
 
-app.get('/', function(req, res) {
-	res.send('This is the first route');
+app.get('/', (req, res) => {
+	res.send("This is the first route");
 });
 
 app.listen(3000);
