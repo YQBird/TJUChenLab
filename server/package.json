@@ -1,0 +1,14 @@
+{
+  "name": "lab_api",
+  "version": "1.0.0",
+  "description": "This is the server app providing REST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ted Yan, Eric Chen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
