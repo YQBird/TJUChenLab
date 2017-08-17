@@ -5,7 +5,7 @@
   },
   "apps": [
     {
-      "root": "src",
+      "root": "client/src",
       "outDir": "dist",
       "assets": [
         "assets",
@@ -31,23 +31,23 @@
   ],
   "e2e": {
     "protractor": {
-      "config": "./protractor.conf.js"
+      "config": "./client/protractor.conf.js"
     }
   },
   "lint": [
     {
-      "project": "src/tsconfig.app.json"
+      "project": "./client/src/tsconfig.app.json"
     },
     {
-      "project": "src/tsconfig.spec.json"
+      "project": "./client/src/tsconfig.spec.json"
     },
     {
-      "project": "e2e/tsconfig.e2e.json"
+      "project": "./client/e2e/tsconfig.e2e.json"
     }
   ],
   "test": {
     "karma": {
-      "config": "./karma.conf.js"
+      "config": "./client/karma.conf.js"
     }
   },
   "defaults": {
