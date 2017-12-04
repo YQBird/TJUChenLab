@@ -1,4 +1,34 @@
-<button md-raised-button>Clicked me</button>
-<p>
-  header works!
-</p>
+
+    <ul class="nav nav-pills nav-fill bg-info">
+      <li class="nav-item active" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link" [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown" routerLinkActive="active">
+        <a class="nav-link" 
+            [routerLink]="['/research']">Research</a>
+        <!-- <ul class="dropdown-menu">
+          <li><a class="dropdown-item" [routerLink]="['/Research1']">Research1</a></li>
+          <li><a class="dropdown-item" [routerLink]="['/Research2']">Research2</a></li>
+          <li><a class="dropdown-item" [routerLink]="['/Research3']">Research3</a></li>
+          <li><a class="dropdown-item" [routerLink]="['/Research4']">Research4</a></li>
+        </ul> -->
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/people']">People</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link disabled" [routerLink]="['/publications']">Publications</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link disabled" [routerLink]="['/news']">News</a>
+      </li>
+    </ul>
+    <!-- <ul class="nav nav-pills nav-fill bg-info">
+      <li class="nav-item" 
+        *ngFor="let route of routes"
+        routerLinkActive="active">
+        <a class="nav-link" [routerLink]="[route.path]">
+          {{ route.routeName }}
+        </a>s
+      </li>
+    </ul> -->
