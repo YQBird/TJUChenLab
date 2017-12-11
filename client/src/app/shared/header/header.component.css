@@ -12,3 +12,11 @@
 .nav-pills .nav-link {
     color: #ffffff; 
 }
+
+.dropdown-menu {
+    margin: 0;
+}
+
+.nav .dropdown.open > .dropdown-menu {
+    display: block;
+}
