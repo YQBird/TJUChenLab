@@ -11,7 +11,7 @@
         <a class="nav-link" [routerLink]="[route.path]">
           {{ route.name }}
         </a>
-        <ul class="dropdown-menu"
+        <ul class="col-md-12 dropdown-menu"
             *ngIf="route.children">
           <li *ngFor="let subroute of route.children; let i = index">
             <a class="dropdown-item" [routerLink]="[route.path, subroute.path]">{{ route.subroutes[i] }}</a>
