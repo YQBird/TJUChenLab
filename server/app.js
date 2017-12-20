@@ -5,9 +5,16 @@ const routes = require('./routes/news_routes');
 const app = express();
 
 mongoose.Promise = global.Promise;
+
 if (process.env.NODE_ENV !== 'testing') {
   mongoose.connect('mongodb://localhost/labChen', 
-  	{ useMongoClient: true });
+  	{ useMongoClient: true })
+    .then(() => {
+    	console.log('DB connected.');
+    })
+    .catch(err => {
+    	console.log(`Error occurs when connects to db: ${err.message}`);
+    });
 }
 
 app.use(bodyParser.json());
