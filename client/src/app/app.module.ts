@@ -6,67 +6,39 @@ import { Routes, RouterModule } from '@angular/router';
 
 // import other modules
 import { AppRoutesModule } from './app-routes.module';
+import { HomeModule } from './home/home.module';
+import { NewsModule } from 'app/news/news.module';
+import { PeopleModule } from 'app/people/people.module';
+import { PublicationsModule } from 'app/publications/publications.module';
+import { ResearchModule } from 'app/research/research.module';
+import { HeaderModule } from 'app/header/header.module';
+import { FooterModule } from 'app/footer/footer.module';
 
 // import first level components
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './shared/header/header.component';
-import { FooterComponent } from './shared/footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { ResearchComponent } from './research/research.component';
-import { PeopleComponent } from './people/people.component';
-import { PublicationsComponent } from './publications/publications.component';
-import { NewsComponent } from './news/news.component';
+// import { HeaderComponent } from './header/header.component';
+// import { AppHeadDropdown } from './header/appHeadDropdown.directive';
 
-// import second level components
-import { PictureComponent } from './home/picture/picture.component';
-import { DescriptionListComponent } from './home/description-list/description-list.component';
-import { DescriptionComponent } from './home/description-list/description/description.component';
-import { FacultyComponent } from './people/faculty/faculty.component';
-import { GraduateStudentComponent } from './people/graduate-student/graduate-student.component';
-import { AlumniComponent } from './people/alumni/alumni.component';
-import { PhotosComponent } from './people/photos/photos.component';
-import { HighlightsComponent } from './publications/highlights/highlights.component';
-import { PublicationListComponent } from './publications/publication-list/publication-list.component';
-
-// import Directives
-import { AppHeadDropdown } from './shared/header/appHeadDropdown.directive';
-
-// const appRoutes: Routes = [
-//   { path: 'home', component: HomeComponent },
-//   { path: 'research', component: ResearchComponent},
-//   { path: 'people', component: PeopleComponent},
-//   { path: 'publications', component: PublicationsComponent},
-//   { path: 'news', component: NewsComponent}
-//   // { path: 'admin', component: ResearchComponent}
-// ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    HomeComponent,
-    PictureComponent,
-    DescriptionListComponent,
-    DescriptionComponent,
-    ResearchComponent,
-    PeopleComponent,
-    PublicationsComponent,
-    NewsComponent,
-    FacultyComponent,
-    GraduateStudentComponent,
-    AlumniComponent,
-    PhotosComponent,
-    HighlightsComponent,
-    PublicationListComponent,
-    AppHeadDropdown
+    // HeaderComponent,
+    // AppHeadDropdown
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MdButtonModule,
     MdCheckboxModule,
-    AppRoutesModule
+    AppRoutesModule,
+    HomeModule,
+    NewsModule,
+    PeopleModule,
+    PublicationsModule,
+    ResearchModule,
+    HeaderModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

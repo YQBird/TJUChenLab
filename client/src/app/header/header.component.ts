@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AppRoutes } from '../../app-routes.module';
+import { AppRoutes } from '../app-routes.module';
 
 @Component({
   selector: 'app-header',
